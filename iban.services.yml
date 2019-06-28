@@ -1,0 +1,6 @@
+services:
+
+  # Services
+  iban.data_provider:
+    class: Drupal\iban\Service\DataProvider
+    arguments: ['@string_translation']
